@@ -1,7 +1,7 @@
 {
-  "_help": "One entry per language pack. Set enabled to true to start building a pack. countries = channel countries to keep, lang = language code, count = how many Shorts to keep.",
+  "_help": "One entry per pack. enabled turns a pack on/off. mode 'quality' builds from the US/Canada popularity charts (no queries needed); other packs use the older keyword search (queries/countries/lang). min_ok = smallest build that may replace the live feed.",
   "packs": [
-    { "id": "en", "enabled": true,  "queries": "queries/en.txt", "countries": "US,CA",    "lang": "en", "count": 1000 },
+    { "id": "en", "enabled": true,  "mode": "quality", "regions": "US,CA", "lang": "en", "count": 5000, "per_channel": 10, "min_ok": 1500 },
     { "id": "fr", "enabled": false, "queries": "queries/fr.txt", "countries": "FR,CA,BE", "lang": "fr", "count": 1000 },
     { "id": "es", "enabled": false, "queries": "queries/es.txt", "countries": "ES,MX,US", "lang": "es", "count": 1000 },
     { "id": "ja", "enabled": false, "queries": "queries/ja.txt", "countries": "JP",       "lang": "ja", "count": 1000 }
