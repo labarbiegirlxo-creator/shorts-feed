@@ -1,0 +1,10 @@
+{
+  "_help": "One entry per language pack. Set enabled to true to start building a pack. countries = channel countries to keep, lang = language code, count = how many Shorts to keep.",
+  "packs": [
+    { "id": "en", "enabled": true,  "queries": "queries/en.txt", "countries": "US,CA",    "lang": "en", "count": 1000 },
+    { "id": "fr", "enabled": false, "queries": "queries/fr.txt", "countries": "FR,CA,BE", "lang": "fr", "count": 1000 },
+    { "id": "es", "enabled": false, "queries": "queries/es.txt", "countries": "ES,MX,US", "lang": "es", "count": 1000 },
+    { "id": "ja", "enabled": false, "queries": "queries/ja.txt", "countries": "JP",       "lang": "ja", "count": 1000 }
+  ],
+  "min_ok": 200
+}
